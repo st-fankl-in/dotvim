@@ -1,18 +1,21 @@
 [submodule "nerdtree"]
 	path = nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/surround"]
 	path = bundle/surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/javascript_indent"]
 	path = bundle/javascript_indent
-	url = git://github.com/pangloss/vim-javascript.git
+	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/XPT"]
 	path = bundle/XPT
-	url = git://github.com/drmingdrmer/xptemplate-dist.git
+	url = https://github.com/drmingdrmer/xptemplate-dist.git
 [submodule "bundle/json"]
 	path = bundle/json
-	url = git://github.com/leshill/vim-json.git
+	url = https://github.com/leshill/vim-json.git
+[submodule "bundle/align"]
+	path = bundle/align
+	url = https://github.com/tsaleh/vim-align.git
