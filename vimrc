@@ -31,7 +31,9 @@ set wildmenu
 " silly about it :)  The GUI is fantastic, but it's fantastic for
 " its fonts and its colours, not for its toolbar and its menus -
 " those just steal screen real estate
-set guioptions=ac
+set guioptions=gacrL
+
+colorscheme motus
 
 
 " ********** XPT Settings **********  
@@ -39,3 +41,5 @@ set guioptions=ac
 let g:xptemplate_key = '<Tab>'
 " autocomplete braces
 let g:xptemplate_brace_complete = 1
+
+:map <F8> :silent !couchapp.exe push<CR>:echo "pushed it real good!"<CR>
