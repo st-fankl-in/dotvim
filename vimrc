@@ -42,4 +42,11 @@ let g:xptemplate_key = '<Tab>'
 " autocomplete braces
 let g:xptemplate_brace_complete = 1
 
+" ********** Indent & Co ***********
+set expandtab " tabs to spaces
+set number  " linenumbers
+set shiftwidth=3 " indent by 3 spaces
+set textwidth=140 " max zeilenlänge
+
+" ********** key mappings **********
 :map <F8> :silent !couchapp.exe push<CR>:echo "pushed it real good!"<CR>
